@@ -9,7 +9,7 @@ public class app {
         double m1= Double.parseDouble(args[2]);
         double m2= Double.parseDouble(args[3]);
 
-        Formula F = new Formula(a, p, m1, m2);
+        Formula F = new Formula(a, p, m1, m2); //названия переменных и методов должны начинаться с маленькой буквы
 
 
 
