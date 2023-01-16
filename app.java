@@ -3,13 +3,14 @@ import java.lang.Math;
 
 public class app {
     public static void main(String[] args) {
+        // нет проверок на количество и тип входных данных
 
         int a = Integer.parseInt(args[0]);
         int p = Integer.parseInt(args[1]);
         double m1= Double.parseDouble(args[2]);
         double m2= Double.parseDouble(args[3]);
 
-        Formula F = new Formula(a, p, m1, m2);
+        Formula F = new Formula(a, p, m1, m2); //названия переменных и методов должны начинаться с маленькой буквы
 
 
 

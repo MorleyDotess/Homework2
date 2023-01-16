@@ -2,9 +2,9 @@ package work;
 
 public class Fibonacci {
 
-
+    // массивы обозначаются без пробела int[]
     public int [] forFibonacci(int number) {
-        if (number>=0){
+        if (number>=0){ // повторение кода, заворачивай проверку в отдельный метод
             int [] fibonacci = new int[number];
             if (number>1){
                 fibonacci[1]=1;
@@ -16,12 +16,12 @@ public class Fibonacci {
 
         }return fibonacci;
         }else {
-            throw new IncorrectLoopTypeExeption();
+            throw new IncorrectLoopTypeExeption(); // не правильная ошибка, ты проверяешь число а не номер цикла
         }
 
         }
     public int [] whileFibonacci(int number){
-        if (number>=0){
+        if (number>=0){ // повторение кода, заворачивай проверку в отдельный метод
             int [] fibonacci = new int[number];
             if (number>1){
                 fibonacci[1]=1;
@@ -33,12 +33,12 @@ public class Fibonacci {
             return fibonacci;
 
         }else {
-            throw new IncorrectLoopTypeExeption();
+            throw new IncorrectLoopTypeExeption(); // не правильная ошибка, ты проверяешь число а не номер цикла
         }
     }
 
-    public int[] dowhileFibonacci(int number){
-        if (number>=0){
+    public int[] dowhileFibonacci(int number){ // каждое новое слово в названии переменных и методов начинается с большой буквы
+        if (number>=0){ // повторение кода, заворачивай проверку в отдельный метод
             int i =2;
             int [] fibonacci = new int[number];
             do {
@@ -53,7 +53,7 @@ public class Fibonacci {
             return fibonacci;
 
         }else {
-            throw new IncorrectLoopTypeExeption();
+            throw new IncorrectLoopTypeExeption();// не правильная ошибка, ты проверяешь число а не номер цикла
         }
 
 
